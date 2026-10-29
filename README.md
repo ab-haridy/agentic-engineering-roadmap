@@ -15,9 +15,17 @@
   Created by <b>Abdelrahman Haridy</b>, Senior Software Developer · <a href="https://www.linkedin.com/in/abhar/">LinkedIn</a> · <a href="https://github.com/ab-haridy">GitHub</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/ab-haridy/agentic-engineering-roadmap/generate"><b>Use this template</b></a> ·
+  <a href="modules/0.1-agentic-coding-loop/README.md"><b>Try module 0.1 (2–3 hours)</b></a> ·
+  <a href="#the-roadmap">See all 26 modules</a>
+</p>
+
 ---
 
 ## The idea in one minute
+
+The agent wrote 2,000 lines in an hour. The client still can't use it.
 
 AI agents can write code fast. That isn't the hard part of client work any more. The hard part is everything around the code:
 
@@ -26,7 +34,7 @@ AI agents can write code fast. That isn't the hard part of client work any more.
 - **Verifying** what they produce, so it is safe to ship.
 - **Delivering** a whole product a client can run, not a pile of features.
 
-This roadmap trains those four skills on **real job descriptions**, one deliverable at a time, inside your own GitHub repository.
+This roadmap trains those four skills on **real job descriptions**, one deliverable at a time, inside your own GitHub repository. It works with Claude Code, Codex or any other coding agent.
 
 ## The journey
 
@@ -76,6 +84,27 @@ flowchart LR
 | **4** | Put your work in `work/` and open a pull request that closes the issue | The pull request template asks what you verified yourself and where you overrode the agent. |
 | **5** | Merge it | The issue closes, and the phase's milestone shows how far you've got. |
 
+## What you'll have at the end
+
+A public portfolio that shows how you work, not only what you built. Every file below is a deliverable from a module, in your own repository:
+
+```text
+work/
+├── 2.1-product-brief/                three briefs written from real job descriptions
+├── 2.2-requirements-workshop/        requirements, decision log, MVP scope
+├── 3.1-architecture/                 system design, ADRs, an agent-ready backlog
+├── 4-web-saas-mvp/                   a working product with a live link (or mobile, or CMS)
+├── 6.2-build-mcp-server/             an MCP server for your product
+├── 6.4-skills-library-and-playbook/  your own skills library and specialization playbook
+├── 7.1-define-success/               an eval dataset and baseline scores
+├── 7.3-safe-agentic-engineering/     a threat model and tested controls
+├── 7.4-quality-gates/                a CI pipeline, with a run where a gate blocked a broken change
+├── 8.2-proposal-and-handover/        proposal, milestones, recorded demo, handover
+└── 9.2-implement-the-factory/        your AI software factory, and a sample run through it
+```
+
+Every pull request also records what you verified yourself and where you overrode the agent. That is the evidence a client or employer wants to see.
+
 ## Who it is for
 
 | ✅ A good fit if you… | ❌ Not a good fit if you… |
@@ -118,6 +147,8 @@ A live workshop walks through the roadmap so you can follow it on your own and g
 ## Contributing
 
 Found a problem, or have a good job description to suggest? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+⭐ **Star the repository** to follow new modules and job descriptions.
 
 ## Repository map
 
